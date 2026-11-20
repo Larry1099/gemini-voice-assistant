@@ -1,20 +1,14 @@
 {
-  "name": "gemini-voice-assistant",
+  "name": "app",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
-  "engines": { "node": ">=22" },
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
+    "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "start": "node server.js"
   },
-  "dependencies": {
-    "@google/genai": "^2.0.0",
-    "express": "^5.1.0",
-    "helmet": "^8.1.0"
-  },
   "devDependencies": {
-    "vite": "^7.0.0"
+    "vite": "^6.0.0"
   }
 }
